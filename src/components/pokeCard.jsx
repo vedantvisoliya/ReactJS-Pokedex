@@ -1,3 +1,7 @@
 export default function PokeCard() {
-    return
+    return (
+        <div>
+            
+        </div>
+    )
 }
