@@ -5,11 +5,10 @@ export default function Modal(props) {
 
     return ReactDom.createPortal(
         <div className="modal-container">
-            <button className="modal-underlay" onClick={handleCloseModal}>
+            <button className="modal-underlay" onClick={handleCloseModal} />
                 <div className="modal-content">
                     {children}
                 </div>
-            </button>
         </div>,
         document.getElementById("portal"),
     )
